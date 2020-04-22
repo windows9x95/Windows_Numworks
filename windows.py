@@ -21,7 +21,7 @@ stat = "not activated"
 #key = "123-456"
 #key = #type your own key before the "#"
 key = "N/A"
-#Microsoft Windows 10
+#Microsoft Windows 10 for Numworks Calculators
 def bootui(a) :
   if a == 1 :
     fill_rect(0,0,640,480,(0,0,0))
@@ -56,10 +56,17 @@ def bootui(a) :
       sleep(0.5)
     print("Welcome to Windows 10 Home")  
     print("WARNING : When you quit an app, \npress exit")
+    #
+    #
+    #Say there will be an update package, will be deleted with next
+    print("Hey check at https://github.com/windows9x95")
+    print("for check if an update is here")
+    #
+    #
   else : 
     print("sorry an error occured, \nor you are already in windows")
 banned_key = ["123-456", "666-666"]
-task = ["Arch-Linux-installer.exe","omg_this_is_a_virus.exe","hydra.exe","omega.exe","msedge.exe","MsMpEng.exe","winlogon.exe","registry","explorer.exe","minecraft.exe","iexplore.exe","MicrosoftEdge.exe","MEMZ.BAT","WIN.COM","Avira.exe","winword.exe","taskman.exe","notepad.exe","battlenet.exe","discord.exe","cmd.exe","000.exe","MEMZ-DESTRUCTIVE.BAT","starcraft.exe","javaw.exe","system","regedit","command.com","edit.com","scandisk.com"]
+task = ["nav.exe", "Arch-Linux-installer.exe","omg_this_is_a_virus.exe","hydra.exe","omega.exe","msedge.exe","MsMpEng.exe","winlogon.exe","registry","explorer.exe","minecraft.exe","iexplore.exe","MicrosoftEdge.exe","MEMZ.BAT","WIN.COM","Avira.exe","winword.exe","taskman.exe","notepad.exe","battlenet.exe","discord.exe","cmd.exe","000.exe","MEMZ-DESTRUCTIVE.BAT","starcraft.exe","javaw.exe","system","regedit","command.com","edit.com","scandisk.com"]
 def main(p=0):
   fill_rect(0,0,640,480,(0,0,255))
   draw_string(a,17,5,(255,255,255),(0,0,255))
