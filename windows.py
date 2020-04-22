@@ -19,6 +19,7 @@ stat = "not activated"
 #key = "666-999"
 #key = "626-626"
 #key = "123-456"
+#key = #type your own key before the "#"
 key = "N/A"
 #Microsoft Windows 10
 def bootui(a) :
@@ -139,6 +140,15 @@ def key_manage(arg, key) :
         return "sucessfully unbanned the key"
      else :
         return "the key isn't banned"
+    elif arg == "install" :
+      if key in valid_key :
+        stat = "activated"
+        print("sucessfully activated windows")
+      elif key = "kms" :
+        print("I don't like KMS")
+      else :
+        print("Windows couldn't be activated")
+        print("the key is valid ?")
 def dxdiag():
   while True :
     fill_rect(0,0,640,480,(0,0,255))
